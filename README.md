@@ -111,6 +111,33 @@ What it can't do
 
 How to
 ------------------------------------------------
+**Setting Up Jupyter Notebooks**
+The process of getting jupyter notebooks to run on your computer can be done multiple ways, but I think the easiest method is simply installing the Anaconda3 (python 3.7) package onto your system, as the package includes a lot of python packages that are useful for graphing and mathematics. 
+Start by in your web browser finding the download for Anaconda3 (python 3.7) for your OS, and install it onto your local system
+Now when you CD into the SiParCS directory, you should simply be able to run the commmand, 
+
+$ jupyter notebook
+
+This will open up the jupyter webrowser to start creating/editing/running jupyter notebooks .
+https://jupyter.readthedocs.io/en/latest/install.html
+The above URL is a great resource for information on the installation of Jupyter, I'd reccomend looking over it.
+
+**Setting up with Password requirement**
+If you'd like to set up a password that is required everytime you start running the command "jupyter notebook", you can simply in your terminal run the command, 
+
+$ jupyter notebook password
+
+This will prompt you to create and confirm a password that will be required everytime you try to access your notebooks.
+
+**Presentations using Jupyter Notebooks**
+Jupyter allows you to present your cells in a interactive presentation format.  To install the conda packages that allows this feature, just run this line in your terminal window:
+
+$ conda install -c damianavila82 rise
+
+a really good resource on how to manipulate and format the order of the slides can be found in the link below.
+
+https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67
+
 
 <!--
 Alternative projects
@@ -168,9 +195,9 @@ Further references are provided in the algorithm codes.
 
 Contact
 ------------------------------------------------
-hendric@ucar.edu
+thoar@ucar.edu
 
-Licence
+License
 ------------------------------------------------
 
 <!--
